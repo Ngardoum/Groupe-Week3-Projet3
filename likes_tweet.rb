@@ -2,10 +2,10 @@ require 'twitter'
 
 # Configuration du client Twitter
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key        = 'YOUR_CONSUMER_KEY'
-  config.consumer_secret     = 'YOUR_CONSUMER_SECRET'
-  config.access_token        = 'YOUR_ACCESS_TOKEN'
-  config.access_token_secret = 'YOUR_ACCESS_TOKEN_SECRET'
+  config.consumer_key        = 'MrMSw7xYRxgrfJxOomkRsQVUj'
+  config.consumer_secret     = 'fDpV12K1h5X8RUO9ByOQlMxO8horNzdGM8mBQsVtt34pBMzXtR'
+  config.access_token        = '1803439297300754432-3yQdI5QMiVd4wOV0RWhZBFDVCf0iRo'
+  config.access_token_secret = 'SeT7vBT0upIXPcCbNEfXytJ6vesx5eJ6mBjsEgEuu5ogk'
 end
 
 # Rechercher les 25 derniers tweets avec le hashtag #hello_world
